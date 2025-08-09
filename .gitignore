@@ -8,3 +8,8 @@ SCTP/
 *.pem
 *.key
 connection_strings.txt
+
+# Ignore large installer files
+environments/Miniconda3-*.sh
+*.dmg
+*.pkg
