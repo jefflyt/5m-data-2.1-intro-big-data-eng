@@ -1,3 +1,10 @@
 solutions/
 .DS_Store
 .ipynb_checkpoints/
+
+# Ignore SCTP folder and credentials
+SCTP/
+**/SCTP/
+*.pem
+*.key
+connection_strings.txt
